@@ -17,6 +17,13 @@
 			font-family: 'Montserrat', sans-serif;
 		}
 	</style>
+
+	<ul>
+	<% for (var i = 0; i < pokemonIndex.length; i++) { %>
+		<h1><li><%=pokemonIndex[i].name%></li></h1>
+	<% } %>
+	</ul>
+
 </body>
 </html>
 
