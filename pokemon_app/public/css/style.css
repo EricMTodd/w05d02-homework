@@ -1,0 +1,9 @@
+body {
+	color: orange;
+	background-color: steelblue;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+li {
+		list-style: none;
+}
